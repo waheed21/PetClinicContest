@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="9" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2622" started-at="2019-05-05T08:39:05Z" finished-at="2019-05-05T08:39:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2622" started-at="2019-05-05T08:39:05Z" finished-at="2019-05-05T08:39:07Z">
+      <class name="com.petclinic.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.petclinic.testcases.HomePageTest@26be92ad]" name="setUp" is-config="true" duration-ms="6949" started-at="2019-05-05T12:38:58Z" finished-at="2019-05-05T12:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateHomePageTitle()[pri:1, instance:com.petclinic.testcases.HomePageTest@26be92ad]" name="validateHomePageTitle" duration-ms="54" started-at="2019-05-05T12:39:05Z" finished-at="2019-05-05T12:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageTitle -->
+        <test-method status="PASS" signature="validatePetImageTest()[pri:2, instance:com.petclinic.testcases.HomePageTest@26be92ad]" name="validatePetImageTest" duration-ms="145" started-at="2019-05-05T12:39:05Z" finished-at="2019-05-05T12:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePetImageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.petclinic.testcases.HomePageTest@26be92ad]" name="tearDown" is-config="true" duration-ms="1378" started-at="2019-05-05T12:39:08Z" finished-at="2019-05-05T12:39:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.petclinic.testcases.HomePageTest -->
+      <class name="com.petclinic.testcases.OwnerPageTest">
+        <test-method status="PASS" signature="redirectFindOwnerPageTest()[pri:3, instance:com.petclinic.testcases.OwnerPageTest@4c70fda8]" name="redirectFindOwnerPageTest" duration-ms="524" started-at="2019-05-05T12:39:05Z" finished-at="2019-05-05T12:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redirectFindOwnerPageTest -->
+        <test-method status="PASS" signature="addNewOwnerTest()[pri:4, instance:com.petclinic.testcases.OwnerPageTest@4c70fda8]" name="addNewOwnerTest" duration-ms="1128" started-at="2019-05-05T12:39:06Z" finished-at="2019-05-05T12:39:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewOwnerTest -->
+        <test-method status="PASS" signature="addOwnerPetTest()[pri:5, instance:com.petclinic.testcases.OwnerPageTest@4c70fda8]" name="addOwnerPetTest" duration-ms="734" started-at="2019-05-05T12:39:07Z" finished-at="2019-05-05T12:39:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addOwnerPetTest -->
+      </class> <!-- com.petclinic.testcases.OwnerPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

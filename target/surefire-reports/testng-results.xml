@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="11" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="6128" started-at="2019-05-05T12:00:00Z" finished-at="2019-05-05T12:00:06Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="6128" started-at="2019-05-05T12:00:00Z" finished-at="2019-05-05T12:00:06Z">
+      <class name="com.petclinic.testcases.HomePageTest">
+        <test-method status="PASS" signature="validateHomePageTitle()[pri:1, instance:com.petclinic.testcases.HomePageTest@6bf256fa]" name="validateHomePageTitle" duration-ms="48" started-at="2019-05-05T16:00:00Z" finished-at="2019-05-05T16:00:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageTitle -->
+        <test-method status="PASS" signature="validatePetImageTest()[pri:2, instance:com.petclinic.testcases.HomePageTest@6bf256fa]" name="validatePetImageTest" duration-ms="125" started-at="2019-05-05T16:00:00Z" finished-at="2019-05-05T16:00:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePetImageTest -->
+      </class> <!-- com.petclinic.testcases.HomePageTest -->
+      <class name="com.petclinic.testcases.OwnerPageTest">
+        <test-method status="PASS" signature="redirectFindOwnerPageTest()[pri:3, instance:com.petclinic.testcases.OwnerPageTest@6cd8737]" name="redirectFindOwnerPageTest" duration-ms="472" started-at="2019-05-05T16:00:00Z" finished-at="2019-05-05T16:00:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redirectFindOwnerPageTest -->
+        <test-method status="PASS" signature="addNewOwnerTest()[pri:4, instance:com.petclinic.testcases.OwnerPageTest@6cd8737]" name="addNewOwnerTest" duration-ms="962" started-at="2019-05-05T16:00:01Z" finished-at="2019-05-05T16:00:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewOwnerTest -->
+        <test-method status="PASS" signature="addOwnerPetTest()[pri:5, instance:com.petclinic.testcases.OwnerPageTest@6cd8737]" name="addOwnerPetTest" duration-ms="716" started-at="2019-05-05T16:00:02Z" finished-at="2019-05-05T16:00:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addOwnerPetTest -->
+        <test-method status="PASS" signature="searchOwnerPetTest()[pri:6, instance:com.petclinic.testcases.OwnerPageTest@6cd8737]" name="searchOwnerPetTest" duration-ms="3645" started-at="2019-05-05T16:00:02Z" finished-at="2019-05-05T16:00:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchOwnerPetTest -->
+        <test-method status="PASS" signature="verificationOwnerPetTest()[pri:7, instance:com.petclinic.testcases.OwnerPageTest@6cd8737]" name="verificationOwnerPetTest" duration-ms="134" started-at="2019-05-05T16:00:06Z" finished-at="2019-05-05T16:00:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificationOwnerPetTest -->
+      </class> <!-- com.petclinic.testcases.OwnerPageTest -->
+      <class name="com.petclinic.testcases.BasePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.petclinic.testcases.BasePageTest@1554909b]" name="setUp" is-config="true" duration-ms="6958" started-at="2019-05-05T15:59:53Z" finished-at="2019-05-05T16:00:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.petclinic.testcases.BasePageTest@1554909b]" name="tearDown" is-config="true" duration-ms="1354" started-at="2019-05-05T16:00:06Z" finished-at="2019-05-05T16:00:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.petclinic.testcases.BasePageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
